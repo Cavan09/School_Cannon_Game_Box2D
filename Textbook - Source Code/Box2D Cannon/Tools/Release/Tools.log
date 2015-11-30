@@ -1,0 +1,30 @@
+﻿Build started 7/15/2013 1:36:29 PM.
+     1>Project "E:\Intro to Game Physics\Code Base\Current\Box2D Cannon\Tools\Tools.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Tools.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\/include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt abort.cpp debug.cpp IPMgr.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp
+         abort.cpp
+         debug.cpp
+         IPMgr.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\Intro to Game Physics\Code Base\Current\Box2D Cannon\Release\Tools.lib" /NOLOGO /LTCG Release\abort.obj
+         Release\debug.obj
+         Release\IPMgr.obj
+         Release\tinystr.obj
+         Release\tinyxml.obj
+         Release\tinyxmlerror.obj
+         Release\tinyxmlparser.obj
+         Tools.vcxproj -> E:\Intro to Game Physics\Code Base\Current\Box2D Cannon\Release\Tools.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\Tools.unsuccessfulbuild".
+         Touching "Release\Tools.lastbuildstate".
+     1>Done Building Project "E:\Intro to Game Physics\Code Base\Current\Box2D Cannon\Tools\Tools.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.00

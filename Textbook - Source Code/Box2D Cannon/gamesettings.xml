@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Box2D Cannon Game" />
+  <renderer width="1024" height="768" />
+  
+  <!-- image file names -->
+  <images>
+    <image name="background" src="Images\\background.png" />
+  </images>
+
+  <!-- sprites -->
+  <sprites>
+    <sprite name="ball" file="Images\\ball.png"/>
+    <sprite name="book" file="Images\\cover.png"/>
+    <sprite name="cannonbarrel" file="Images\\barrel.png"/>
+    <sprite name="cannonmount" file="Images\\mount.png"/>
+    <sprite name="wheel" file="Images\\wheel.png"/>
+    <sprite name="tempguage" file="Images\\temperature.png"/>
+    <sprite name="tempneedle" file="Images\\tempneedle.png"/>
+    <sprite name="tempmaxneedle" file="Images\\tempmaxneedle.png"/>
+    <sprite name="clockface" file="Images\\clockface.png"/>
+    <sprite name="clockneedle" file="Images\\clockneedle.png"/>
+    <sprite name="pirate" file="Images\\pirate.png"/>
+  </sprites>
+
+
+  <!-- sound -->
+  <!-- "cps" is number of channels per sound, 1 for mono, 2 for stereo -->
+  <!-- "bps" is number of bits per sample, usually 8 or 16 -->
+  <!-- "rate" is sample rate -->
+
+  <sound cps="1" bps="16" rate="22050"/>
+
+  <sounds level="0">
+    <sound file="Sounds\\thump.wav" copies="8"/>
+    <sound file="Sounds\\thump2.wav" copies="8"/>
+    <sound file="Sounds\\cannonfire.wav" copies="4"/>
+    <sound file="Sounds\\cannonsplode.wav" copies="1"/>
+    <sound file="Sounds\\ticktock.wav" copies="1"/>
+    <sound file="Sounds\\yay.wav" copies="1"/>
+    <sound file="Sounds\\unh.wav" copies="1"/>
+    <sound file="Sounds\\clang.wav" copies="8"/>
+    <sound file="Sounds\\r.wav" copies="1"/>
+  </sounds>
+  
+
+  <!-- debugger settings -->
+
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+
+</settings>
